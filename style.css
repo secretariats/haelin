@@ -1,0 +1,142 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    background-color:#efa7c4;
+}
+ 
+ 
+img {
+	width:100%;
+}
+
+@media screen and (max-width:1200px) {
+	#header {
+		width:100%;
+		height: 550px;
+		background-image: url("haelin.png");
+		background-position: center;
+	    -webkit-background-size: cover;
+	    background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover;
+	}
+	#banner {
+		display:none;
+	}
+}
+ 
+@media only screen and (min-width: 1200px) {
+
+}
+
+#message {
+	height:300px;
+	width:100%;
+	padding-left: 10%;
+	padding-right:10%;
+	font-size: 15px;
+/*	background-color:#872D62;
+*/
+	} 
+
+.fa {
+	font-size:44px;
+	width: 100%;
+	text-align: center;
+} 
+
+
+.modal-content {
+    -webkit-border-radius: 0;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 0;
+    -moz-background-clip: padding;
+    border-radius: 6px;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 0 40px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 0 40px rgba(0,0,0,.5);
+    box-shadow: 0 0 40px rgba(0,0,0,.5);
+    color: #000;
+    background-color: #fff;
+    border: rgba(0,0,0,0);
+}
+ 
+.modal-message .modal-body, .modal-message .modal-footer, .modal-message .modal-header, .modal-message .modal-title {
+    background: 0 0;
+    border: none;
+    margin: 0;
+    padding: 0 20px;
+    text-align: center!important;
+}
+
+.modal-message .modal-title {
+    color: #737373;
+    margin-bottom: 3px;
+}
+
+.modal-message .modal-body {
+    color: #737373;
+    font-size:14pxI;
+}
+
+.modal-message .modal-header {
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 15px 0 8px;
+}
+.modal-message .modal-header .fa, 
+.modal-message .modal-header 
+.glyphicon, .modal-message 
+.modal-header .typcn, .modal-message .modal-header .wi {
+    font-size: 30px;
+}
+
+.modal-message .modal-footer {
+    margin: 25px 0 20px;
+    padding-bottom: 10px;
+}
+
+.modal-backdrop.in {
+    zoom: 1;
+    filter: alpha(opacity=75);
+    -webkit-opacity: .75;
+    -moz-opacity: .75;
+    opacity: .75;
+}
+.modal-backdrop {
+    background-color: #fff;
+} 
+.modal-message.modal-warning .modal-header {
+    color: #efa7c4;
+    border-bottom: 3px solid #efa7c4;
+}
+ 
+.btn-warning {
+	font-size:12px;
+	background-color: #efa7c4;
+}
+ 
+ 
+#present {
+	cursor: pointer;
+}
+
+a {
+	color:#efa7c4;
+}
+
+a:hover{
+	text-decoration: none;
+	color:#e192b1;
+	transition:0.5s;
+}
+
+.btn-close {
+	background-color: #efa7c4;
+	color:white;
+}
+
+.btn-close:hover {
+	color:white;
+}
